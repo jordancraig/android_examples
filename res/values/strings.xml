@@ -8,5 +8,6 @@
     <string name="get_sys_info">Retrieving System Info</string>
     <string name="disk_info">Disk Information</string>
     <string name="net_info">Network Information</string>
+    <string name="sys_info">System Information</string>
 
 </resources>

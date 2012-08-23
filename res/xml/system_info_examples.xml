@@ -8,5 +8,9 @@
     <Preference
         android:title="@string/net_info"
         android:key="net_info" />
+    
+    <Preference
+        android:title="@string/sys_info"
+        android:key="sys_info" />
 
 </PreferenceScreen>

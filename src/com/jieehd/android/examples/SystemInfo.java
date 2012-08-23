@@ -11,6 +11,7 @@ public class SystemInfo extends PreferenceActivity {
 	
 	private Preference disk_info;
 	private Preference net_info;
+	private Preference sys_info;
 	private Intent i;
 	private Context cx;
 	
@@ -40,6 +41,19 @@ public class SystemInfo extends PreferenceActivity {
 			public boolean onPreferenceClick(Preference preference) {
 				// TODO Auto-generated method stub
 				i = new Intent(getApplicationContext(), NetInfo.class);
+				startActivity(i);
+				return false;
+			}
+			
+		});
+		
+		sys_info = findPreference("sys_info");
+		sys_info.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+
+			@Override
+			public boolean onPreferenceClick(Preference preference) {
+				// TODO Auto-generated method stub
+				i = new Intent(getApplicationContext(), SysInfo.class);
 				startActivity(i);
 				return false;
 			}
