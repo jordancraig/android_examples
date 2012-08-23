@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Android Examples</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="hardware_title">Hardware</string>
+    <string name="get_sys_info">Retrieving System Info</string>
+    <string name="disk_info">Disk Information</string>
+    <string name="net_info">Network Information</string>
+
+</resources>

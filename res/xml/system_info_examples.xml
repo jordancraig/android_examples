@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <Preference
+        android:title="@string/disk_info"
+        android:key="disk_info" />
+    
+    <Preference
+        android:title="@string/net_info"
+        android:key="net_info" />
+
+</PreferenceScreen>
