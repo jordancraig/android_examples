@@ -11,6 +11,7 @@ import android.view.Menu;
 public class NavigationActivity extends PreferenceActivity {
 	
 	private Preference sys_info;
+	private Preference mem_info;
 	private Intent i;
 	private Context cx;
 
@@ -27,6 +28,19 @@ public class NavigationActivity extends PreferenceActivity {
 			public boolean onPreferenceClick(Preference preference) {
 				// TODO Auto-generated method stub
 				i = new Intent(getApplicationContext(), SystemInfo.class);
+				startActivity(i);
+				return false;
+			}
+        	
+        });
+        
+        mem_info = findPreference("mem_info");
+        mem_info.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+
+			@Override
+			public boolean onPreferenceClick(Preference preference) {
+				// TODO Auto-generated method stub
+				i = new Intent(getApplicationContext(), MemNav.class);
 				startActivity(i);
 				return false;
 			}

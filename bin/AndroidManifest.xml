@@ -37,6 +37,14 @@
             android:name=".SysInfo"
             android:label="@string/app_name" />
         
+        <activity
+            android:name=".MemNav"
+            android:label="@string/app_name" />
+        
+        <activity
+            android:name=".FreeMem"
+            android:label="@string/app_name" />
+        
     </application>
 
 </manifest>
