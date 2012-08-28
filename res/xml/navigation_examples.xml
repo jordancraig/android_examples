@@ -11,6 +11,10 @@
 		<Preference
 		    android:title="@string/memory_title"
 		    android:key="mem_info" />
+		
+		<Preference 
+		    android:title="@string/snake_layout_text_text"
+		    android:key="snake_game" />
         
         
 

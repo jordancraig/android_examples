@@ -1,6 +1,6 @@
 package com.jieehd.android.examples;
 
-import android.content.Context;
+import snake.game.Snake;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;
@@ -12,8 +12,8 @@ public class NavigationActivity extends PreferenceActivity {
 	
 	private Preference sys_info;
 	private Preference mem_info;
+	private Preference snake;
 	private Intent i;
-	private Context cx;
 
     @SuppressWarnings("deprecation")
 	@Override
@@ -41,6 +41,19 @@ public class NavigationActivity extends PreferenceActivity {
 			public boolean onPreferenceClick(Preference preference) {
 				// TODO Auto-generated method stub
 				i = new Intent(getApplicationContext(), MemNav.class);
+				startActivity(i);
+				return false;
+			}
+        	
+        });
+        
+        snake = findPreference("snake_game");
+        snake.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+
+			@Override
+			public boolean onPreferenceClick(Preference preference) {
+				// TODO Auto-generated method stub
+				i = new Intent(getApplicationContext(), Snake.class);
 				startActivity(i);
 				return false;
 			}

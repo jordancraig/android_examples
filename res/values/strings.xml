@@ -3,7 +3,7 @@
     <string name="app_name">Android Examples</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_activity_navigation">Android Examples</string>
     <string name="hardware_title">Hardware</string>
     <string name="memory_title">Memory</string>
     <string name="get_sys_info">Retrieving System Info</string>
@@ -11,5 +11,10 @@
     <string name="net_info">Network Information</string>
     <string name="sys_info">System Information</string>
     <string name="free_mem">Calculate free memory</string>
+    <string name="mode_ready">Snake\nPress Up To Play</string>
+  	<string name="mode_pause">Paused\nPress Up To Resume</string>
+  	<string name="mode_lose_prefix">Game Over\nScore: </string>
+  	<string name="mode_lose_suffix">\nPress Up To Play</string>
+    <string name="snake_layout_text_text">Snake</string>
 
 </resources>

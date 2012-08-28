@@ -9,6 +9,14 @@ package com.jieehd.android.examples;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int tileSize=0x7f010000;
     }
     public static final class dimen {
         public static final int padding_large=0x7f050002;
@@ -22,15 +30,18 @@ public final class R {
     public static final class id {
         public static final int disk_info_tv=0x7f090000;
         public static final int free_mem_tv=0x7f090001;
-        public static final int menu_settings=0x7f090004;
+        public static final int menu_settings=0x7f090006;
         public static final int net_info_tv=0x7f090002;
-        public static final int sys_info_tv=0x7f090003;
+        public static final int snake=0x7f090003;
+        public static final int sys_info_tv=0x7f090005;
+        public static final int text=0x7f090004;
     }
     public static final class layout {
         public static final int disk_info=0x7f030000;
         public static final int free_mem=0x7f030001;
         public static final int net_info=0x7f030002;
-        public static final int sys_info=0x7f030003;
+        public static final int snake_layout=0x7f030003;
+        public static final int sys_info=0x7f030004;
     }
     public static final class menu {
         public static final int activity_navigation=0x7f080000;
@@ -44,7 +55,12 @@ public final class R {
         public static final int hello_world=0x7f060001;
         public static final int memory_title=0x7f060005;
         public static final int menu_settings=0x7f060002;
+        public static final int mode_lose_prefix=0x7f06000d;
+        public static final int mode_lose_suffix=0x7f06000e;
+        public static final int mode_pause=0x7f06000c;
+        public static final int mode_ready=0x7f06000b;
         public static final int net_info=0x7f060008;
+        public static final int snake_layout_text_text=0x7f06000f;
         public static final int sys_info=0x7f060009;
         public static final int title_activity_navigation=0x7f060003;
     }
@@ -56,4 +72,33 @@ public final class R {
         public static final int navigation_examples=0x7f040001;
         public static final int system_info_examples=0x7f040002;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a TileView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #TileView_tileSize com.jieehd.android.examples:tileSize}</code></td><td></td></tr>
+           </table>
+           @see #TileView_tileSize
+         */
+        public static final int[] TileView = {
+            0x7f010000
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.jieehd.android.examples.R.attr#tileSize}
+          attribute's value can be found in the {@link #TileView} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:tileSize
+        */
+        public static final int TileView_tileSize = 0;
+    };
 }
