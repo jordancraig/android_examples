@@ -60,6 +60,7 @@ containing a value of this type.
         public static final int mode_pause=0x7f06000c;
         public static final int mode_ready=0x7f06000b;
         public static final int net_info=0x7f060008;
+        public static final int security_title=0x7f060010;
         public static final int snake_layout_text_text=0x7f06000f;
         public static final int sys_info=0x7f060009;
         public static final int title_activity_navigation=0x7f060003;

@@ -16,5 +16,6 @@
   	<string name="mode_lose_prefix">Game Over\nScore: </string>
   	<string name="mode_lose_suffix">\nPress Up To Play</string>
     <string name="snake_layout_text_text">Snake</string>
+    <string name="security_title">Security</string>
 
 </resources>

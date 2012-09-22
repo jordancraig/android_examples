@@ -2,7 +2,8 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
     
     <PreferenceCategory
-        android:title="@string/hardware_title" />
+        android:title="@string/hardware_title"
+        android:key="toplevel_nav" />
     
     	<Preference
     	    android:title="@string/get_sys_info"
@@ -15,6 +16,10 @@
 		<Preference 
 		    android:title="@string/snake_layout_text_text"
 		    android:key="snake_game" />
+		
+		<Preference
+		    android:title="@string/security_title"
+		    android:key="security" />
         
         
 
